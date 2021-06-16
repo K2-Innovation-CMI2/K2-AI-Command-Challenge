@@ -9,3 +9,13 @@ What this repo (will) contain:
 Training scenarios for agents.
 
 More to come.
+
+Installation:
+Move the "cmo_challegne_scripts" folder to "CMO's directory/Lua".
+Move the "sceneraios" folder to "CMO's directory/scenarios".
+
+That's all!
+
+If you have any issues with scenarios or code provided, make an issue on git and we will investigate it.
+
+Thanks for participating!
