@@ -86,6 +86,6 @@ function spawn(spec)
     return unit
 end
 
-function UpdateScore(amount, reason)
+function updateScore(amount, reason)
     return ScenEdit_SetScore("Blue", ScenEdit_GetScore("Blue") + amount, reason)
 end
