@@ -21,7 +21,7 @@ if theDestroyedUnit.type ~= 'Weapon' then
 			ScenEdit_SpecialMessage('playerside','Could not find match for destroyed unit '..theDestroyedUnit.name..', dbid '..theDestroyedUnit.dbid)
 		end
 	else
-		UpdateScore(matchData.points,'A target building was destroyed.') -- NEW different function
+		updateScore(matchData.points,'A target building was destroyed.') -- NEW different function
 		ScenEdit_SetEvent('Scenario End',{isactive=true})
 	end
 end
